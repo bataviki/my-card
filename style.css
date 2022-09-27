@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Asap", sans-serif;
+    background: url("https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Minimalist-Wallpaper-Paper-Airplanes.png")
+      no-repeat center center fixed;
+  }
+  
+  #card {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  
+  #head {
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.14);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #content {
+    min-height: 45%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  
+  #contact {
+    height: 5%;
+    text-align: center;
+  }
+  
+  img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  
+  img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  p {
+    font-style: italic;
+  }
+  
+  #head,
+  #contact,
+  #content {
+    width: 90%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 5px;
+  }
+  
+  li {
+    display:inline;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #info {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3,
+  p {
+    font-size: 15px;
+  }
+  
+  i {
+    color: rgba(0, 38, 255, 0.5);
+  }
+  
+  i:hover {
+    color: rgba(0, 38, 255, 0.8);
+  }
+  
+  ul {
+    word-spacing: 8px;
+    padding: 0;
+  }
+  
